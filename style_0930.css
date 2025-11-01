@@ -1,0 +1,69 @@
+* {
+	word-break: keep-all;
+	justify-content: space-evenly;
+	background-image: url("images_0930/paper.jpg");
+	font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 0;
+}
+div{
+	display: flex;
+}
+header{
+    margin-bottom: 10em;
+    line-height: 4;
+    padding: 20px;
+}
+nav{
+	margin-bottom: 10em;
+}
+h1{
+	text-align: center;
+}
+section{
+    border: 2px, dotted, #E6B6AC;
+    width: 300px;
+    text-align: center;
+}
+article{
+    border: 2px, solid, #E6B6AC;
+    width: 150px;
+}
+li{
+	color: red;
+	list-style: none;
+	border: 2px ridge groove;
+}
+.yellow {
+	color: #F0BB02;
+}
+.green {
+	color: #68C433;
+}
+.red {
+    color: #A11F05;
+}
+.blue {
+    color: #046CC2;
+}
+a {
+	color: seagreen;
+	/*text-decoration: none;*/
+	text-underline-offset: 6px;
+	text-decoration-thickness: 1px;
+}
+a:hover {
+	color: pink;
+}
+img {
+	width: 300px;
+	height: auto;
+	vertical-align: bottom;
+}
